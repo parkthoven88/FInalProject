@@ -273,3 +273,5 @@ function initApp () {
     selectMenu.addEventListener("change", function (e) {selectMenuChangeEventHandler(e)});
     document.addEventListner("DOMContentLoaded", function (e) {initApp()});
 }
+
+    document.addEventListener('DOMContentLoaded', initApp);
