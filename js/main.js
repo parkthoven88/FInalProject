@@ -271,7 +271,6 @@ function initApp () {
     initPage();
     let selectMenu =  document.querySelector('#selectMenu');
     selectMenu.addEventListener("change", function (e) {selectMenuChangeEventHandler(e)});
-    document.addEventListner("DOMContentLoaded", function (e) {initApp()});
 }
 
    document.addEventListener('DOMContentLoaded', initApp);
