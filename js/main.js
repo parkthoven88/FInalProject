@@ -274,4 +274,4 @@ function initApp () {
     document.addEventListner("DOMContentLoaded", function (e) {initApp()});
 }
 
-    document.addEventListener('DOMContentLoaded', initApp);
+   document.addEventListener('DOMContentLoaded', initApp);
