@@ -209,7 +209,7 @@ async function  createPosts (posts) {
         let p4 = createElemWithText("p", `${author.company.catchPhrase}`);
 
         let button = createElemWithText("button", 'Show Comments');
-        button.dataset.posts = posts.id;
+        button.dataset.posts = posts[i].id;
 
         let section = await displayComments (posts[i].id);
 
